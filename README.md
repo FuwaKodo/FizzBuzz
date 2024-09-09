@@ -202,10 +202,10 @@ a sequence of three git commands:
    that `FizzBuzz.java` has a new status.
 2. `git commit -m "refactored to extract helper method"`
    - this actually records your changes to all "staged" files to your local git repository. You can again
-   run `git status` to see what has happened.
-   - And if you run `git log`, you will see a record of all commits made so far in the repository.
+   run `git status` to see what has happened. 
+   - And if you run `git log`, you will see a record of all commits made so far in the repository. (Note to get out from `git log` press `q`)
    - The `-m "refactored to extract helper method"` is the message briefly documenting what changes were made.
-   You can put whatever message you want in the quotes, but try to keep it short and descriptive.
+   You can put whatever message you want in the quotes, but try to keep it short and descriptive. 
 3. `git push`
    - this last step is what actually sends your committed changes to your remote GitHub repository.
    - IMPORTANT: You likely won't have your system configured for this command to actually work directly, so you
