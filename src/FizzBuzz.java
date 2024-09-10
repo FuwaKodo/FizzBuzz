@@ -38,7 +38,11 @@ class FizzBuzz {
         }
     }
 
-    private static int doFizzBuzz(int i) {
+    public static void testFunction(){
+        System.out.println("Fizz Buzz");
+    }
+
+    public static int doFizzBuzz(int i) {
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
 
@@ -60,5 +64,12 @@ class FizzBuzz {
 
         i++;
         return i;
+    }
+
+    public static void doMain() {
+        int i = 1;
+        while (i < 100){
+            i = doFizzBuzz(i);
+        }
     }
 }
